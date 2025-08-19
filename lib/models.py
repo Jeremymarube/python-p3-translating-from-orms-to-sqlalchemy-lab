@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from sqlalchemy import (Column, String, Integer)
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, String, Integer
+from sqlalchemy.orm import declarative_base   # ✅ modern import
 
 Base = declarative_base()
 
